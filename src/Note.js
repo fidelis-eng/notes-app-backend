@@ -1,12 +1,14 @@
+/*  eslint linebreak-style: ["error", "windows"]  */
+
 class Note {
-    constructor(id, title, createdAt, updatedAt, tags, body){
-        this.id = id,
-        this.title = title,
-        this.createdAt = createdAt,
-        this.updatedAt = updatedAt,
-        this.tags = tags,
-        this.body = body
-    }
+  constructor(id, title, createdAt, updatedAt, tags, body) {
+    this.id = id;
+    this.title = title;
+    this.createdAt = createdAt;
+    this.updatedAt = updatedAt;
+    this.tags = tags;
+    this.body = body;
+  }
 }
 
-module.exports = Note
+module.exports = Note;
